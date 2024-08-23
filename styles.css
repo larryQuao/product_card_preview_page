@@ -1,0 +1,129 @@
+:root{
+    --dark_cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very_dark_blue: hsl(212, 21%, 14%);
+    --dark_grayish_blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cream);
+    font-size: 14px;
+}
+
+main{
+    width: 343px;
+    margin: 2rem auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper{
+    background-color: var(--white);
+    border-radius: 1.14rem;
+}
+
+img{
+    width: 100%;
+    border-radius: 1.14rem 1.14rem 0 0;
+}
+
+.sub_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 1.7rem;
+}
+
+h1{
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1.14rem;
+    color: var(--very_dark_blue);
+}
+
+h2, span{
+    font-family: "Fraunces";
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+}
+
+.text_details p{
+    line-height: 1.4rem;
+    padding-top: 1.14rem;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.price p:last-child{
+    text-decoration: line-through;
+}
+
+span{
+    color: var(--dark_cyan);
+}
+
+.btn a{
+    background-color: var(--dark_cyan);
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 0.6rem;
+    padding: 1rem 0;
+    margin-top: 1.41rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.btn a:hover, .btn a:focus{
+    background-color: #1a4031;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1440px){
+
+    main{
+        width: 600px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
+
+    img{
+        width: 50%;
+        content: url(images/image-product-desktop.jpg);
+        border-radius: 1.14rem 0  0 1.14rem;
+    }
+    .wrapper{
+        display: flex;
+        border-radius: 1.14rem;
+    }
+
+    .sub_wrapper{
+        padding: 2.3rem;
+        display: flex;
+        gap: 32px;
+        align-self: center;
+    }
+}
