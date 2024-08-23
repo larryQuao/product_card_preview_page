@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution link](https://github.com/larryQuao/product_preview_card_preview_page)
+- Live Site URL: [My live website link](https://product-preview-card-preview-page.vercel.app/)
 
 ## My process
 
